@@ -8,12 +8,8 @@ from rest_framework import status
 @api_view(['GET', 'POST'])
 def restaurant_list(request, format=None):
 
-    
-    try:
+    if request.method == 'GET':
         restaurants = Restaurant.objects.all()
-    except Restaurant.DoesNotExist:
-        return Response(status=status.HTTP_404_NOT_FOUND)
-    if request.method == 'GET':    
         serializer = RestaurantSerializer(restaurants, many=True)
         return Response(serializer.data)
         
