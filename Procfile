@@ -1,1 +1,1 @@
-web gunicorn restautant-api.wsgi:application --log-file -
+web gunicorn restautant_api.wsgi:application --log-file -
