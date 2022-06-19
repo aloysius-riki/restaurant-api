@@ -20,5 +20,5 @@ from restaurant_api import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('restaurants/', views.restaurant_list),
-    path('restaurants/<int:id>/', views.restaurant_detail)
+    path('restaurants/<int:id>', views.restaurant_detail)
 ]
