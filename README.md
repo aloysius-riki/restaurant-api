@@ -19,7 +19,7 @@ A **Restaurant** has a:
 
 1. Get all restaurants details by ID (GET): https://riki-restaurant-api.herokuapp.com/restaurants/
 
-2. Get all restaurants details by ID (GET): https://riki-restaurant-api.herokuapp.com/restaurants/){id} 
+2. Get all restaurants details by ID (GET): https://riki-restaurant-api.herokuapp.com/restaurants/{id} 
 
 3. Create a restarant (POST): http://localhost:8080/api/v1/drone/register
 
@@ -54,5 +54,5 @@ Content-type: JSON.
 }
 ```
 
-5. Remove Restaurant (DELETE): https://riki-restaurant-api.herokuapp.com/restaurants/1
+5. Remove Restaurant (DELETE): https://riki-restaurant-api.herokuapp.com/restaurants/{id}
 
