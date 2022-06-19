@@ -21,7 +21,7 @@ A **Restaurant** has a:
 
 2. Get all restaurants details by ID (GET): https://riki-restaurant-api.herokuapp.com/restaurants/{id} 
 
-3. Create a restarant (POST): http://localhost:8080/api/v1/drone/register
+3. Create a restarant (POST): https://riki-restaurant-api.herokuapp.com/restaurants/
 
 Request body is given below:
 
