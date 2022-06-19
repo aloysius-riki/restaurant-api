@@ -1,1 +1,3 @@
-web gunicorn restautant_api.wsgi
+web: gunicorn restaurant_api.wsgi:application --log-file - --log-level debug
+python manage.py collectstatic --noinput
+manage.py migrate
