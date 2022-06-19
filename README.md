@@ -15,7 +15,9 @@ A **Restaurant** has a:
 - cuisine.
 
 
-## Test
+## How To Use The API
+
+The endpoints of the API are listed below, to help you easily engage with the API I setup [this Postman Collection](https://www.postman.com/aerospace-administrator-59946073/workspace/restaurant-api/collection/21537138-29b922ed-4471-4657-82ef-6416d55d9613?action=share&creator=21537138), you can also use the browser interface or consume the API with your favorite programming language.
 
 1. Get all restaurants details by ID (GET): https://riki-restaurant-api.herokuapp.com/restaurants/
 
